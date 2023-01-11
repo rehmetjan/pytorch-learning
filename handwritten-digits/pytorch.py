@@ -63,6 +63,6 @@ with torch.no_grad():
 print(f'accuracy: {round(correct/total, 3)}')
 
 #visualization
-plt.imshow(x[3].view(28, 28))
+plt.imshow(x[6].view(28, 28))
 plt.show()
 print(torch.argmax(net(x[3].view(-1, 784))[0]))
