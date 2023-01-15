@@ -1,0 +1,9 @@
+// My comment
+digraph {
+	a [label=King]
+	b [label=Queen]
+	c [label=Soldier]
+	a -> b
+	a -> c
+	b -> c [constrain=false]
+}
