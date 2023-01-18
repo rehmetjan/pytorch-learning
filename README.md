@@ -9,4 +9,4 @@
 7. graphviz
 8. PIL
 9. matplotlib.pyplot as plt
-10. 
+10. python basic array
