@@ -5,20 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to System</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>You are logged in.</h1>
-    <script>
-        // get the username and password from the url
-        const urlParams = new URLSearchParams(window.location.search);
-        const username = urlParams.get('username');
-        const password = urlParams.get('password');
-        // if the username and password are not null, then display them
-        if (username != null && password != null) {
-            document.write("Username: " + username + "<br>");
-            document.write("Password: " + password);
-        }
-        
-    </script>
 </body>
 </html>
