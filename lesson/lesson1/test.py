@@ -1,20 +1,19 @@
-# from lesson import dataset
-
+"""using python"""
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load data
 # xs, ys = lesson.dataset.get_beans(100)
 
-
+# get beans method
 def get_beans(counts):
-    xs = np.random.rand(counts)
-    # xs = np.sort(xs)
-    ys = [1.7 * x + np.random.rand() / 5 for x in xs]
-    # ys = [1.2 * x + np.random.rand() / 10 for x in xs]
-    # ys = np.random.rand(counts)
-    return xs, ys
+    """method using get beans"""
+    Xs = np.random.rand(counts)
+    # Xs = np.sort(Xs)
+    Ys = [1.7 * x + np.random.rand() / 5 for x in Xs]
+    # Ys = [1.2 * x + np.random.rand() / 10 for x in Xs]
+    # Ys = np.random.rand(counts)
+    return Xs, Ys
 
 
 xs, ys = get_beans(100)
